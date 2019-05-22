@@ -1,9 +1,27 @@
 header {
     background-color: #ffffff;
     border-color: #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
     font-size: larger;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+div {
+    border: 1px, solid black;
+    padding: 2em;
+    display: inline-block; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 footer {
     background-color: #666666;
+    border-color: #4aaaa5; 
+    color: #ffffff;
+    text-align: center;
 }
