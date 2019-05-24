@@ -18,8 +18,6 @@ h1 {
 
 div {
     background-color: #ffffff;
-
-    
 }
 
 hr {
@@ -33,8 +31,7 @@ hr {
     position: absolute;
     color: #ffffff;
     top: 10px;
-    left: 300px;
-    right: 100px;
+    left: 200px;
     width: 120px;
     padding: 20px;
 }
@@ -45,17 +42,24 @@ top: 10px;
 right:50px;
 }
 
-
 body {
     margin: 0;
     background-image: url("../images/full-bloom.jpg");  
     background-position: center;
 }      
+
+#head {
+position: relative;
+}
+
 #box {
-    bottom: 50%;
-    height: 960px;
+    bottom: -100px;
+    left: 50px;
+    height:460px;
     width: 960px;
-    padding: 75px;
+    margin: 0;
+    position: relative;
+    
 }
 
 #top {
@@ -63,12 +67,76 @@ body {
     width: 100%;
     top: 0;
     right: 40px;
+    background-color: solid white;
 }
 
 #main {
     position: absolute;
 }
 
+img {
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+    overflow: auto;
+}
+
+#about {
+    position: relative;
+    left: -1px;
+    bottom: 0;
+    top: 0;
+}
+
+#message {
+    height: 150px;
+    padding: 50px 50px;
+}
+
+#surround {
+    position: relative;
+    left: -1px;
+    bottom: 0;
+    top: 0;
+}
+#one {
+    position: relative;
+    left: 50px;
+    bottom: -20px;
+}
+
+#two {
+    position: relative;
+    left: 400px;
+    top: -185px;
+}
+
+#three {
+    position: relative;
+    left: 50px;
+    bottom: 185px;
+}
+
+#four {
+    position: relative;
+    left: 400px;
+    bottom: 390px;
+}
+
+#five {
+    position: relative;
+    left: 50px;
+    bottom: 370px;
+}
 footer {
     background-color: #666666;
     border-top: solid blue;
